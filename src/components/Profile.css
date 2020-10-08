@@ -1,0 +1,53 @@
+.card {
+  border-radius: 10px;
+  width: 500px;
+  position: relative;
+  margin: 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  height: 500px;
+}
+
+.card.hovercard .cardheader {
+  background: url("http://lorempixel.com/850/280/nature/4/");
+  background-size: cover;
+  height: 200px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -100px;
+  margin-bottom: -100px;
+}
+img {
+  border-radius: 50%;
+  border: 15px solid rgba(214, 224, 226, 0.7);
+  width: 200px;
+}
+
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+.btn-sm {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}
+button {
+  background-color: rgba(214, 224, 226, 0.2);
+  border-color: rgba(214, 224, 226, 0.2);
+  border-radius: 5%;
+  color: black;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: -170px;
+}
